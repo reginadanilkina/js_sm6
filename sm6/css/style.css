@@ -1,0 +1,48 @@
+body {
+    font-family: Montserrat;
+}
+.news {
+    display: grid;
+    justify-items: center;
+}
+.border {
+    width: 559px;
+    border-radius: 15px;
+    border: 1px solid #C0C0C0;
+    padding: 20px;
+    margin-top: 50px;
+}
+.title-date {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.author-id {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.title {
+    color: #111111;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+}
+.date-id {
+    color: #C0C0C0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.text {
+    color: #111111;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.author {
+    color: #111111;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+}
